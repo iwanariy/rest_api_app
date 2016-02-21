@@ -8,4 +8,4 @@ class EventAdmin(admin.ModelAdmin):
     """
         Admin class for Event
     """
-    list_display = (u"name",)
+    list_display = (u"title", u"description", u"created_at", u"updated_at")
