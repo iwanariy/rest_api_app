@@ -1,4 +1,13 @@
 # coding: utf-8
-from django.shortcuts import render
+# from django.shortcuts import render
 
-# Create your views here.
+# import django_filters
+from rest_framework import viewsets
+
+from .models import Event
+from .serializer import EventSerializer
+
+
+class EventViewSet(viewsets.ModelViewSet):
+    queryset = Event.objects.all()
+    serializer_class = EventSerializer
