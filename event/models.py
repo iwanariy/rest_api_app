@@ -14,4 +14,4 @@ class Event(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.name.encode(u"utf-8")
+        return self.title.encode(u"utf-8")
