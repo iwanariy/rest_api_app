@@ -11,3 +11,10 @@ from .serializer import EventSerializer
 class EventViewSet(viewsets.ModelViewSet):
     queryset = Event.objects.all()
     serializer_class = EventSerializer
+
+from django.shortcuts import render
+APP_NAME = "event"
+
+
+def index(request):
+    return render(request, '%s/index.html' % APP_NAME, {})
