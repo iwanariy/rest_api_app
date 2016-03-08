@@ -15,6 +15,12 @@ pip install -r requirements.txt
 ```
 
 
+## Run
+```
+./manage.py runserver
+```
+
+
 ## Author
 
 
