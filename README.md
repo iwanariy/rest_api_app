@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/narikin/rest_api_app/badges/gpa.svg)](https://codeclimate.com/github/narikin/rest_api_app)
+
 Sample Application, REST API and Vue.js
 ====
 
