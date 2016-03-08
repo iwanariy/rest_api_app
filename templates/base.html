@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>{% block title %}{% endblock title %}</title>
+  </head>
+  <body>
+    <!-- header -->
+    {% include 'header.html' %}
+
+    <!-- content -->
+    {% block content %}{% endblock content %}
+
+    <!-- footer -->
+    {% include 'footer.html' %}
+  </body>
+</html>
