@@ -1,10 +1,12 @@
 {% extends "base.html" %}
+{% load staticfiles %}
 
 {% block title %}Event page{% endblock %}
 
 {% block script %}
 <script src="https://cdn.jsdelivr.net/vue/latest/vue.js"></script>
 <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="{% static 'event/js/index.js' %}"></script>
 {% endblock %}
 
 {% block content %}
