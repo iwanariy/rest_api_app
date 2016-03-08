@@ -10,6 +10,9 @@ This is a sample application powered by Django and Vue.js
 
 
 ## Installation
+```
+pip install -r requirements.txt
+```
 
 
 ## Author
