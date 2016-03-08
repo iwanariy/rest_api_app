@@ -6,7 +6,7 @@ This is a sample application powered by Django and Vue.js
 
 
 ## Requirement
-- Python3.x
+- Python 3.x
 
 
 ## Installation
