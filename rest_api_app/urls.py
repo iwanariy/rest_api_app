@@ -21,4 +21,5 @@ from event.urls import router as event_router
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/', include(event_router.urls)),
+    url(u'^event/', include('event.urls'),)
 ]
