@@ -1,4 +1,4 @@
-"""rest_api_react URL Configuration
+"""rest_api_app URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.9/topics/http/urls/
